@@ -1,0 +1,12 @@
+CREATE TABLE DAT_ORDER(
+    OID                VARCHAR(64)    PRIMARY KEY,
+    ORDER_NUMBER       VARCHAR(12),
+    USER_OID           VARCHAR(64),
+    ADDRESS_OID        VARCHAR(64),
+    ORDER_TIME         TIMESTAMP(6),
+    NEED_INVOICE       CHAR(1),
+    DELIVER_TIME       TIMESTAMP(6)     NOT NULL,
+    DELIVER_TYPE_ID    VARCHAR(32),
+    STATE              VARCHAR(2)
+)
+;

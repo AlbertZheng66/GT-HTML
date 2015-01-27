@@ -1,0 +1,47 @@
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('0', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+			  
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('1', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('2', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+			 
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('3', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('4', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('5', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('6', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('7', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('8', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('9', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('10', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('11', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('12', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('13', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('14', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());
+
+INSERT INTO DAT_ORDER(OID, ORDER_NUMBER, USER_OID, ADDRESS_OID, ORDER_TIME, NEED_INVOICE, STATE, DELIVER_TIME)
+              VALUES ('15', '000000',     '0',      '0',         NOW(),      'Y',          '01', NOW());

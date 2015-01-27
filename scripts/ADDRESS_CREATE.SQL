@@ -1,0 +1,10 @@
+CREATE TABLE ADDRESS(
+    OID                 VARCHAR(64) NOT NULL,
+    USER_OID            VARCHAR(64) NOT NULL,
+    CITY_CODE           VARCHAR(32),
+    TYPE                VARCHAR(2),   -- OFFICE, HOME, NONE
+    DETAIL              VARCHAR(256),
+    CONSTRAINT PK_ADDRESS PRIMARY KEY (OID)
+)
+;
+

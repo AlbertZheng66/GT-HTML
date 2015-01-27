@@ -1,0 +1,25 @@
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('0', '0', '010', 'H', '北四环西路188号');
+
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('1', '0', '010', 'H', '北四环西路188号');
+
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('2', '0', '010', 'H', '北四环西路188号');
+
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('3', '0', '010', 'H', '北四环西路188号');
+			
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('4', '0', '010', 'H', '北四环西路188号');
+			
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('5', '0', '010', 'H', '北四环西路188号');
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('6', '0', '010', 'H', '北四环西路188号');
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('7', '0', '010', 'H', '北四环西路188号');
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('8', '0', '010', 'H', '北四环西路188号');
+INSERT INTO ADDRESS(OID, USER_OID, CITY_CODE, TYPE, DETAIL)
+            VALUES ('9', '0', '010', 'H', '北四环西路188号');

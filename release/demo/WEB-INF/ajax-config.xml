@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xt-config>
+    <databases default="demo">
+      <database id="demo" type="jdbc" >
+          <param name="user"     value="sa" /> 
+          <param name="password" value="" /> 
+          <param name="schema"   value="PUBLIC" /> 
+          <param name="url"      value="jdbc:hsqldb:file:${appContext}WEB-INF/db/gt_demo" /> 
+          <param name="driver"   value="org.hsqldb.jdbcDriver" />  
+      </database>
+      <database id="test" type="jdbc">
+          <param name="user"     value="gt_demo" /> 
+          <param name="password" value="gt_demo" /> 
+          <param name="schema"   value="public" /> 
+          <param name="url"      value="jdbc:postgresql://localhost/gt_demo" /> 
+          <param name="driver"   value="org.postgresql.Driver" />  
+    </database>
+  </databases>
+   
+  
+  <system>
+       <param name="paginationPageSize"  value="10" /> 
+       <param name="DATE_FORMAT"       value="yyyy-MM-dd" /> <!-- 日期的显示和解析格式 --> 
+       <param name="AJAX_ENCODING"     value="UTF-8" />
+
+       <param name="SERVLET_INTS">
+          <data value="com.xt.core.app.init.AppContext" />
+       </param>
+       <param name="parsers" type="map">
+          <entry key="databases" value="com.xt.gt.sys.impl.DataBaseParameterParser" />
+       </param>
+       <param name="processorFactories" type="list">
+          <data value="com.xt.core.proc.impl.IPOPersistenceProcessorFactory" />
+          <data value="com.xt.core.proc.impl.SessionProcessorFactory" />
+          <data value="com.xt.gt.demo.aa.AAProcessorFactory" />
+       </param>
+  </system>
+
+</xt-config>

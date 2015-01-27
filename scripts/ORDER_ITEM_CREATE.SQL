@@ -1,0 +1,11 @@
+CREATE TABLE ORDER_ITEM(
+    OID              VARCHAR(64)    NOT NULL,
+    BOOK_OID         VARCHAR(64)    NOT NULL,
+    ORDER_OID        VARCHAR(64)    NOT NULL,
+    FEE              FLOAT(10, 3)   NOT NULL,
+    MOUNT            INTEGER(10)    NOT NULL,
+    DISC_FEE         FLOAT(10, 3),
+    CUSTOMISE_MSG    VARCHAR(128),
+    CONSTRAINT PK_ORDER_ITEM PRIMARY KEY (OID)
+)
+;
